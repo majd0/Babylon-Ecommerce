@@ -1,0 +1,101 @@
+
+.ShoppingCart{
+  color: gray;
+  float: left;
+  margin-left: 23.5%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  width: 80%;
+
+
+}
+.itemsbox{
+  display: flex;
+  float: left;
+  margin-top: 30px;
+  width:700px;
+  height:relative;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 10px grey;
+}
+.img1{
+  float: left;
+  padding: 2% 2% 2% 2%;
+}
+.img1 img{
+  border-radius: 10px;
+}
+
+#title{
+margin-top: 2%;
+font-weight: bold;
+}
+#qunatity{
+  margin-top: 2%;
+}
+#color{
+}
+#describtion{
+  text-align: justify;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+.details img{
+  padding: 2%;
+  float: right;
+}
+.checkoutbox{
+
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 4%;
+  width:450px;
+  height:250px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 10px grey;
+}
+#totalprice{
+  padding: 2% 2% 2% 2%;
+}
+#pricee{
+  padding-left: 2%;
+  font-size: 35px;
+  font-weight: bold;
+}
+hr{
+  color: gray;
+}
+#note{
+  padding-left: 2%;
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 1%;
+
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  width: 400px;
+  margin-bottom: 19px;
+  margin-left: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.button1:hover {
+  background-color: green;
+  color: white;
+  border-color: green;
+}

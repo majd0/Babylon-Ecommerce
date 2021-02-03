@@ -1,0 +1,65 @@
+#dashbo {
+  position: relative;
+  /* margin-top: 50px; */
+  border: 1px solid black;
+  height: 700px;
+  width: 20%;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: Montserrat;
+  background-color: #1D1D1D;
+  color: white;
+}
+h2 {
+  padding: 20px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+#apanel {
+  position: relative;
+  /* border: 1px solid black; */
+  /* height: 700px; */
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  margin-left: 310px;
+  top: -740px;
+}
+button {
+  font-size: 15px;
+  margin-top: 20px;
+  margin: 15px;
+  background-color:#34495E;
+  /* border-color: #2C3E50; */
+  padding: 20px;
+  font-family: Montserrat;
+  color: white;
+  min-width: 200px;
+}
+#buttons:hover {
+  background-color: #0B5345;
+  cursor: pointer;
+  color: white;
+  border-color: #0B5345;
+}
+table {
+  border-collapse: collapse;
+  font-size: 11px;
+  text-align: center;
+}
+#addingForm p, input{
+  padding: 5px;
+  float: inherit;
+
+}
+#userTable, #orderTable {
+  margin: 0 auto;
+  font-size: 20px;
+}
+#productTable {
+  margin: 0 auto;
+  font-size: 15px;
+}

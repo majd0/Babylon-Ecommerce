@@ -1,0 +1,87 @@
+
+.checkoutForm p {
+  font-size: 20px;
+  margin-left: 50px;
+  font-family: Montserrat;
+  margin-top: 10px;
+}
+
+#inp, h4, h3{
+  width: 34%;
+  padding: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: Montserrat;
+  /* margin-top: 10px; */
+}
+#inpSP {
+  padding: 10px;
+  margin-left: 52px;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+
+#inpbtn {
+  background-color: lightgreen;
+  border: green;
+  padding: 10px;
+  margin-left: 670px;
+  font-size: 15px;
+  font-family: Montserrat;
+  width: 40%;
+  border-radius: 10px;
+}
+#inpbtn:hover {
+  color: white;
+  cursor: pointer;
+  background-color: green;
+}
+#placeOrder h4{
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-top: -150px;
+  width: 600px;
+  margin-left: 670px;
+}
+
+#cartSummary table{
+  border-radius: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  border: transparent;
+  font-family: Montserrat;
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  height: 300px;
+  left: 50%;
+  bottom: 20%;
+  /* border: 1px solid black; */
+  background-color: darkgray;
+}
+table thead {
+  font-size: 25px;
+}
+tbody td {
+  padding: 10px;
+}
+tfoot {
+  font-weight: bold;
+  font-size: 20px;
+}
+table td{
+  font-weight: bold;
+}
+div.cartItems {
+  text-align: left;
+  text-weight: bold;
+  color: red;
+}
+.cartItems p {
+  text-align: right;
+  text-weight: bold;
+}
+hr {
+  margin: 0 auto;
+  width: 100%;
+}

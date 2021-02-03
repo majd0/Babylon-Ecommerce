@@ -1,0 +1,214 @@
+/**************************** BABYLON ******************************/
+#header {
+    position: absolute;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: #605C5B;
+}
+a:hover{
+    color: #F5F5F5;
+}
+.navvicons{
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 73%;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.navvicons img{
+  padding:0% 5px;
+}
+#babylon-logo {
+    width: 20%;
+    position: absolute;
+}
+div.home_page{
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 1400px;
+  margin: 0 auto;
+}
+.home-menu li{
+  transition: transform 0.5;
+  position: relative;
+  min-width: 80px;
+  display: inline-block;
+  list-style-type: none;
+  background-color: #F5F5F5;
+  padding: 15px;
+  color: #605C5B;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: -50px;
+/*  border-radius: 30px;*/
+
+}
+.home-menu li:hover {
+    background-color: #1D1D1D;
+    color: #F5F5F5;
+    cursor: pointer;
+    /* transform: scale(1.3); */
+}
+ul.home-menu {
+  text-decoration: none;
+  margin: 30px 150px 30px 250px;
+  min-width: 250px;
+  border-radius: 30px;
+}
+#search-bar {
+  transition: width 0.5s;
+  position: sticky;
+  width: 100%;
+  height: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 100px;
+  outline: 0;
+  margin-bottom: 1%;
+}
+.welcome {
+  position: absolute;
+  background-image: url(../images/home-image.png);
+  background-repeat: no-repeat;
+  margin-top: 0%;
+  margin-left: 40%;
+  width: 50%;
+/*  margin: 10px;*/
+/*  border: 1px solid black;*/
+  height: 34%;
+  float: left;
+}
+#welcome-to {
+  font-size: 30px;
+  font-family: "Palatino Linotype";
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 90%;
+  background-image: url(../images/babylon-logos%20-%20Copy.JPG);
+  background-repeat: no-repeat;
+  height: 130px;
+  border-radius: 30px;
+}
+#welcome-msg {
+    text-align: justify;
+    justify-content: center;
+    width: 35%;
+    margin-left: 30px;
+/*    margin-top: -5px;*/
+/*    padding-left: 10px;*/
+    padding-right: 150px;
+    position: relative;
+    font-size: 19px;
+    font-family: "Palatino Linotype";
+}
+.welcome-msg-left {
+    background-color: #F5F5F5;
+    height: 331px;
+    border-radius: 30px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 0px;
+    font-size: 13px;
+    font-family: "Georgia";
+    background-color: #1D1D1D;
+    color: #F5F5F5;
+
+}
+/******************** SHOP BY CATEGORY *********************/
+h2 {
+    text-align: center;
+    font-family: "Palatino Linotype";
+    color: darkslategray;
+}
+.shop-by-categories{
+    margin-left: 50px;
+    height: 500px;
+/*    border: 1px solid black;*/
+}
+.categories li{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Palatino Linotype";
+    float: left;
+    list-style-type: none;
+/*    border: 1px solid black;*/
+    padding: 60px;
+    min-width: 160px;
+    opacity: 0.8;
+    color: black;
+/*    border-radius: 30px;*/
+    margin: 5px;
+    transition: transform .5s;
+}
+.categories li:hover{
+    opacity: 1;
+    color:  brown;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#bedrooms {
+    background-image: url(../images/bedroom.jpg);
+}
+#livingroom {
+   background-image: url(../images/livingroom.jpg);
+}
+#kitchen {
+    background-image: url(../images/kitchen.jpg);
+}
+#outdoor {
+    background-image: url(../images/outdoor.jpg);
+}
+#laundry {
+    background-image: url(../images/laundry.jpg);
+}
+#office {
+    background-image: url(../images/office.jpg);
+}
+/************************ OUR SERVICES  ******************/
+.our-services ul{
+    background-color: #F5F5F5;
+    height: 50px;
+    text-align: center;
+    padding-top: 90px;
+    border-radius: 30px;
+}
+.our-services li{
+  transition: transform 0.5s;
+  display: inline;
+  list-style-type: none;
+/*  background-color: #F5F5E5;*/
+  padding: 15px;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin: 40px;
+  border-radius: 30px;
+
+}
+.our-services li:hover {
+    background-color: #605C5B;
+    color: #F5F5F5;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+#delivery {
+    background-image: url(../images/shipping.png);
+    width: 10%;
+}
+/********************** GOOGLE MAP **********************/
+#map {
+  height: 250px;
+  width: 50%;
+  border: 1px solid black;
+}

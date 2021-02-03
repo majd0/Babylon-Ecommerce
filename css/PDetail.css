@@ -1,0 +1,282 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.home_page {
+    height: 650px !important;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    margin-top: 90px;
+
+}
+.header{
+  width: 100%;
+  height: 70px;
+  display: block;
+  background-color:white;
+    margin-top: -90px;
+}
+.logo_container{
+  position: absolute;
+  margin-top:0.7%;
+/*  margin-left: 23%;*/
+}
+.navv{
+  margin-left: 37%;
+}
+.navv li{
+    margin: 2px;
+  float: left;
+  padding: 0% 3%;
+  margin-top: 2.5%;
+  font-family: 'Roboto medium';
+  font-size: 14px;
+
+  transition: transform 0.5;
+  position: relative;
+  min-width: 80px;
+  display: inline-block;
+  list-style-type: none;
+  background-color: #F5F5F5;
+  padding: 15px;
+  color: #605C5B;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.navv li:hover{
+    color:black;
+    transition: 0.5s;
+    background-color: #1D1D1D;
+    color: #F5F5F5;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+a {
+    color: #605C5B;
+}
+a:hover {
+    color: white;
+}
+.navvicons{
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 73%;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.navvicons img{
+  padding:0% 5px;
+}
+body{
+/*    width: 80%;*/
+/*  background-color: #EEEEEE;*/
+}
+.Search_bar{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+input.searchB{
+  border: 3px solid darkgray;
+  height: 2.5%;
+  width: 800px;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+input.searchB:focus, textarea {
+    outline: none !important;
+}
+.container{
+  margin-top: 8%;
+  margin-left: 5%;
+
+}
+.path{
+  margin-bottom: 1%;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+ul.thump{
+  margin: 0 auto;
+  padding:0;
+  float: left;
+
+}
+ul.thump li{
+  list-style: none;
+  margin-bottom:28%;
+  max-width: 93%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+ul.thump li img{
+  width: 100px !important;
+}
+.imgBox{
+  float: left;
+  width: 50%;
+  height: 35%;
+  margin-left: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.imgBox img{
+  width: 507px !important;
+}
+.Pdetails label{
+  margin-left: 1%;
+}
+#titlee{
+  font-family: 'Roboto medium';
+  font-size: 24px;
+}
+#smalldetails{
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+#price{
+  font-family: 'Roboto medium';
+  font-size: 35px;
+  font-weight: bold;
+}
+#story{
+  display: inline-block;
+  position: relative;
+  max-width: 20%;
+  margin-left: 1%;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.dropbtn {
+  background-color: darkgray;
+  color: white;
+  margin-top: 1%;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.dropdown {
+  margin-left: 1%;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 7%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Roboto';
+
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gray;
+
+}
+input.qunat{
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 8.4%;
+  height: 45px;
+  font-size: 16px;
+  text-align: center;
+
+}
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  width: 20%;
+  height: 50px;;
+  margin-left: 1%;
+  margin-bottom: 0.5%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+.button2{
+  background-color: white;
+  color: black;
+  border: 2px solid #000000;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+.button2:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+hr{
+  margin-left: 25%;
+  max-width: 50%;
+  display: block;
+}
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0 auto;
+    margin-top: 1%;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    background-color: #1D1D1D;
+    color: #F5F5F5;
+}
+.Pdescribtion{
+  margin-left: 23%;
+  font-family: 'Roboto medium';
+  font-size: 24px;
+  font-weight: bold;
+}
+p{
+  font-family: 'Roboto';
+  font-size: 15px;
+  max-width: 70%;
+  text-align: justify;
+}

@@ -1,0 +1,45 @@
+
+.Edit{
+min-width: 80%;
+  color: #2d2d2d;
+  margin-left: 23.5%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+
+}
+
+
+.Edit label{
+  color: black;
+  font-size: 15px;
+
+}
+.Edit input, select {
+  width: 12%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
+hr {
+  width: 60%;
+}
+
+#submit{
+  background-color: green;
+  color: white;
+  margin-left: 25% !important;
+}
+
+.Edit button{
+  width: 10%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
+
