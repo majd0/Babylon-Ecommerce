@@ -38,7 +38,7 @@ else $name = "Furnitures";
                             <div class="product-image-wrapper">
                                 <div class="single-products">
                                     <div class="productinfo text-center">
-                                        <img src="./img/<? echo $row["image"]?>1.jpg" alt="" width="180" height="381" />
+                                        <img src="./img/<?php echo $row["image"]?>1.jpg" alt="" width="180" height="381" />
                                         <h2>SAR <?php echo $row["price"]; ?></h2>
                                         <p><?php echo $row["name"]; ?></p>
                                         <a href="product_details.php?id=<?php echo $row["p_id"]; ?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>View Description</a>
